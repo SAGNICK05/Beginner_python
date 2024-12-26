@@ -1,0 +1,21 @@
+s1={10,20,30}
+print(s1)
+s2=set({})
+print(type(s2))
+s1.add(25)
+print(s1)
+s1.remove(10)
+print(s1)
+s2={15,10,47,25}
+s2.add(24)
+print(s2)
+print(s1)
+print("union",s1|s2)
+print("intersection",s1.intersection(s2))
+print("minus",s1-s2)
+print(s1.symmetric_difference(s2))
+#print(len(s1+s2))
+s1={1,2,3,4}
+s2={1,2,3,4,5,6,7}
+#to check s1 is subset of s2
+print(s1.issubset(s2))

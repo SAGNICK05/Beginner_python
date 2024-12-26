@@ -1,0 +1,12 @@
+d={10:"abc",20:"dcf",30:"tgy"}
+print(d)
+print(d[20])
+print(d.get(10))
+print(d.get(50))
+print(d.get(60,"NA"))
+print(len(d))
+print(d.pop(20))
+print(d)
+d[50]="gff"
+d[40]="hgy"
+print(d)
